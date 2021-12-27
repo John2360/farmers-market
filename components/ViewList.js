@@ -7,7 +7,6 @@ import MyLoader from './MyLoader';
 import StoreListItem from './StoreListItem';
 import Accordion from 'react-bootstrap/Accordion';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { data } from 'jquery';
 
 
 const ListItem = ((props) =>{

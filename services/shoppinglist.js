@@ -5,6 +5,7 @@ function getFireStoreProducts(isLoadedBar, setIsLoadedBar) {
     const [items, setItems] = useState([]);
 
     useEffect(() => {
+        // https://us-central1-react-plane.cloudfunctions.net/api/products
         fetch("https://us-central1-react-plane.cloudfunctions.net/api/products")
             .then(res => res.json())
             .then(

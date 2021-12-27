@@ -15,7 +15,7 @@ function getListOfStores(shoppingList, isLoaded, setIsLoaded, setIsSaved) {
         };
 
         // https://us-central1-react-plane.cloudfunctions.net/api/stores
-        fetch("http://localhost:5001/react-plane/us-central1/api/stores", requestOptions)
+        fetch("https://us-central1-react-plane.cloudfunctions.net/api/stores", requestOptions)
             .then(res => res.json())
             .then(
             (result) => {
