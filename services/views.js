@@ -12,7 +12,7 @@ function postView(uuid, storeList, setIsSaved) {
     };
 
     //https://us-central1-react-plane.cloudfunctions.net/api/myviews
-    fetch("http://localhost:5001/react-plane/us-central1/api/myviews", requestOptions)
+    fetch("https://us-central1-react-plane.cloudfunctions.net/api/myviews", requestOptions)
         .then(res => res.json())
         .then(
         (result) => {
